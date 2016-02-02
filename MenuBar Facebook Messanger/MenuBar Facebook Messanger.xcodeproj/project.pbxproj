@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2BB5B91C4C8E9E00599F76 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2BB5B81C4C8E9E00599F76 /* WebKit.framework */; };
+		CDF2C7F91C4B834200293307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2C7F81C4B834200293307 /* AppDelegate.swift */; };
+		CDF2C7FB1C4B834200293307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF2C7FA1C4B834200293307 /* Assets.xcassets */; };
+		CDF2C7FE1C4B834200293307 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF2C7FC1C4B834200293307 /* MainMenu.xib */; };
+		CDF2C8091C4B834200293307 /* MenuBar_TwiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2C8081C4B834200293307 /* MenuBar_TwiterTests.swift */; };
+		CDF2C8141C4B834200293307 /* MenuBar_TwiterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2C8131C4B834200293307 /* MenuBar_TwiterUITests.swift */; };
+		CDF2C8231C4C6BD100293307 /* MasterViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2C8211C4C6BD100293307 /* MasterViewControler.swift */; };
+		CDF2C8241C4C6BD100293307 /* MasterViewControler.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF2C8221C4C6BD100293307 /* MasterViewControler.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF2C8051C4B834200293307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF2C7ED1C4B834200293307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF2C7F41C4B834200293307;
+			remoteInfo = "MenuBar Twiter";
+		};
+		CDF2C8101C4B834200293307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF2C7ED1C4B834200293307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF2C7F41C4B834200293307;
+			remoteInfo = "MenuBar Twiter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD2BB5B81C4C8E9E00599F76 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CDF2C7F51C4B834200293307 /* MenuBar Facebook Messanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MenuBar Facebook Messanger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2C7F81C4B834200293307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDF2C7FA1C4B834200293307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF2C7FD1C4B834200293307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CDF2C7FF1C4B834200293307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF2C8041C4B834200293307 /* MenuBar Facebook Messanger.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MenuBar Facebook Messanger.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2C8081C4B834200293307 /* MenuBar_TwiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar_TwiterTests.swift; sourceTree = "<group>"; };
+		CDF2C80A1C4B834200293307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF2C80F1C4B834200293307 /* MenuBar Facebook Messanger.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MenuBar Facebook Messanger.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF2C8131C4B834200293307 /* MenuBar_TwiterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar_TwiterUITests.swift; sourceTree = "<group>"; };
+		CDF2C8151C4B834200293307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF2C8211C4C6BD100293307 /* MasterViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewControler.swift; sourceTree = "<group>"; };
+		CDF2C8221C4C6BD100293307 /* MasterViewControler.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewControler.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF2C7F21C4B834200293307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2BB5B91C4C8E9E00599F76 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2C8011C4B834200293307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2C80C1C4B834200293307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF2C7EC1C4B834200293307 = {
+			isa = PBXGroup;
+			children = (
+				CD2BB5B81C4C8E9E00599F76 /* WebKit.framework */,
+				CDF2C7F71C4B834200293307 /* MenuBar Facebook Messanger */,
+				CDF2C8071C4B834200293307 /* MenuBar Facebook MessangerTests */,
+				CDF2C8121C4B834200293307 /* MenuBar Facebook MessangerUITests */,
+				CDF2C7F61C4B834200293307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF2C7F61C4B834200293307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2C7F51C4B834200293307 /* MenuBar Facebook Messanger.app */,
+				CDF2C8041C4B834200293307 /* MenuBar Facebook Messanger.xctest */,
+				CDF2C80F1C4B834200293307 /* MenuBar Facebook Messanger.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF2C7F71C4B834200293307 /* MenuBar Facebook Messanger */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2C7F81C4B834200293307 /* AppDelegate.swift */,
+				CDF2C8211C4C6BD100293307 /* MasterViewControler.swift */,
+				CDF2C8221C4C6BD100293307 /* MasterViewControler.xib */,
+				CDF2C7FA1C4B834200293307 /* Assets.xcassets */,
+				CDF2C7FC1C4B834200293307 /* MainMenu.xib */,
+				CDF2C7FF1C4B834200293307 /* Info.plist */,
+			);
+			path = "MenuBar Facebook Messanger";
+			sourceTree = "<group>";
+		};
+		CDF2C8071C4B834200293307 /* MenuBar Facebook MessangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2C8081C4B834200293307 /* MenuBar_TwiterTests.swift */,
+				CDF2C80A1C4B834200293307 /* Info.plist */,
+			);
+			path = "MenuBar Facebook MessangerTests";
+			sourceTree = "<group>";
+		};
+		CDF2C8121C4B834200293307 /* MenuBar Facebook MessangerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2C8131C4B834200293307 /* MenuBar_TwiterUITests.swift */,
+				CDF2C8151C4B834200293307 /* Info.plist */,
+			);
+			path = "MenuBar Facebook MessangerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF2C7F41C4B834200293307 /* MenuBar Facebook Messanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF2C8181C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Facebook Messanger" */;
+			buildPhases = (
+				CDF2C7F11C4B834200293307 /* Sources */,
+				CDF2C7F21C4B834200293307 /* Frameworks */,
+				CDF2C7F31C4B834200293307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MenuBar Facebook Messanger";
+			productName = "MenuBar Twiter";
+			productReference = CDF2C7F51C4B834200293307 /* MenuBar Facebook Messanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF2C8031C4B834200293307 /* MenuBar Facebook MessangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF2C81B1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Facebook MessangerTests" */;
+			buildPhases = (
+				CDF2C8001C4B834200293307 /* Sources */,
+				CDF2C8011C4B834200293307 /* Frameworks */,
+				CDF2C8021C4B834200293307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF2C8061C4B834200293307 /* PBXTargetDependency */,
+			);
+			name = "MenuBar Facebook MessangerTests";
+			productName = "MenuBar TwiterTests";
+			productReference = CDF2C8041C4B834200293307 /* MenuBar Facebook Messanger.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF2C80E1C4B834200293307 /* MenuBar Facebook MessangerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF2C81E1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Facebook MessangerUITests" */;
+			buildPhases = (
+				CDF2C80B1C4B834200293307 /* Sources */,
+				CDF2C80C1C4B834200293307 /* Frameworks */,
+				CDF2C80D1C4B834200293307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF2C8111C4B834200293307 /* PBXTargetDependency */,
+			);
+			name = "MenuBar Facebook MessangerUITests";
+			productName = "MenuBar TwiterUITests";
+			productReference = CDF2C80F1C4B834200293307 /* MenuBar Facebook Messanger.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF2C7ED1C4B834200293307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Caelen Burke";
+				TargetAttributes = {
+					CDF2C7F41C4B834200293307 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CDF2C8031C4B834200293307 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CDF2C7F41C4B834200293307;
+					};
+					CDF2C80E1C4B834200293307 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CDF2C7F41C4B834200293307;
+					};
+				};
+			};
+			buildConfigurationList = CDF2C7F01C4B834200293307 /* Build configuration list for PBXProject "MenuBar Facebook Messanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF2C7EC1C4B834200293307;
+			productRefGroup = CDF2C7F61C4B834200293307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF2C7F41C4B834200293307 /* MenuBar Facebook Messanger */,
+				CDF2C8031C4B834200293307 /* MenuBar Facebook MessangerTests */,
+				CDF2C80E1C4B834200293307 /* MenuBar Facebook MessangerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF2C7F31C4B834200293307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF2C8241C4C6BD100293307 /* MasterViewControler.xib in Resources */,
+				CDF2C7FB1C4B834200293307 /* Assets.xcassets in Resources */,
+				CDF2C7FE1C4B834200293307 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2C8021C4B834200293307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2C80D1C4B834200293307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF2C7F11C4B834200293307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF2C7F91C4B834200293307 /* AppDelegate.swift in Sources */,
+				CDF2C8231C4C6BD100293307 /* MasterViewControler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2C8001C4B834200293307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF2C8091C4B834200293307 /* MenuBar_TwiterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF2C80B1C4B834200293307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF2C8141C4B834200293307 /* MenuBar_TwiterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF2C8061C4B834200293307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF2C7F41C4B834200293307 /* MenuBar Facebook Messanger */;
+			targetProxy = CDF2C8051C4B834200293307 /* PBXContainerItemProxy */;
+		};
+		CDF2C8111C4B834200293307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF2C7F41C4B834200293307 /* MenuBar Facebook Messanger */;
+			targetProxy = CDF2C8101C4B834200293307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDF2C7FC1C4B834200293307 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDF2C7FD1C4B834200293307 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDF2C8161C4B834200293307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDF2C8171C4B834200293307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDF2C8191C4B834200293307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/MenuBar Facebook Messanger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-Facebook-Messanger";
+				PRODUCT_NAME = "MenuBar Facebook Messanger";
+			};
+			name = Debug;
+		};
+		CDF2C81A1C4B834200293307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/MenuBar Facebook Messanger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-Facebook-Messanger";
+				PRODUCT_NAME = "MenuBar Facebook Messanger";
+			};
+			name = Release;
+		};
+		CDF2C81C1C4B834200293307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MenuBar TwiterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-TwiterTests";
+				PRODUCT_NAME = "MenuBar Facebook Messanger";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBar Facebook Messanger.app/Contents/MacOS/MenuBar Facebook Messanger";
+			};
+			name = Debug;
+		};
+		CDF2C81D1C4B834200293307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MenuBar TwiterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-TwiterTests";
+				PRODUCT_NAME = "MenuBar Facebook Messanger";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBar Facebook Messanger.app/Contents/MacOS/MenuBar Facebook Messanger";
+			};
+			name = Release;
+		};
+		CDF2C81F1C4B834200293307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MenuBar TwiterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-TwiterUITests";
+				PRODUCT_NAME = "MenuBar Facebook Messanger";
+				TEST_TARGET_NAME = "MenuBar Twiter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CDF2C8201C4B834200293307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MenuBar TwiterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.MenuBar-TwiterUITests";
+				PRODUCT_NAME = "MenuBar Facebook Messanger";
+				TEST_TARGET_NAME = "MenuBar Twiter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF2C7F01C4B834200293307 /* Build configuration list for PBXProject "MenuBar Facebook Messanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF2C8161C4B834200293307 /* Debug */,
+				CDF2C8171C4B834200293307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF2C8181C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Facebook Messanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF2C8191C4B834200293307 /* Debug */,
+				CDF2C81A1C4B834200293307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF2C81B1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Facebook MessangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF2C81C1C4B834200293307 /* Debug */,
+				CDF2C81D1C4B834200293307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF2C81E1C4B834200293307 /* Build configuration list for PBXNativeTarget "MenuBar Facebook MessangerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF2C81F1C4B834200293307 /* Debug */,
+				CDF2C8201C4B834200293307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF2C7ED1C4B834200293307 /* Project object */;
+}
